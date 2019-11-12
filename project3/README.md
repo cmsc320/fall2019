@@ -83,11 +83,11 @@ Based on this plot, consider the following questions.
 
 **Question 12**: <em>On average, by how much does life expectancy increase each year for each continent? (Provide code to answer this question by extracting relevant estimates from model fit)</em>
 
-**Exercise 7**: <em> Perform an F-test that compares how well two models fit your data: (a) the linear regression models from Exercise 2 (only including year as a covariate) and (b) Exercise 6 (including interaction between year and continent).  You may want to use the `scipy.stats.f_oneway` function for this.</em>  
+<s>**Exercise 7**: <em> Perform an F-test that compares how well two models fit your data: (a) the linear regression models from Exercise 2 (only including year as a covariate) and (b) Exercise 6 (including interaction between year and continent).  You may want to use the `scipy.stats.f_oneway` function for this.</em>  
 
-**Question 13**: <em>Is the interaction model significantly better than the year-only model? Why?</em>
+**Question 13**: <em>Is the interaction model significantly better than the year-only model? Why?</em></s>
 
-**Exercise 8**: <em>Make a residuals vs. year violin plot for the interaction model. Comment on how well it matches assumptions of the linear regression model. Do the same for a residuals vs. fitted values model.</em>
+**Exercise 8**: <em>Make a residuals vs. year violin plot for the interaction model. Comment on how well it matches assumptions of the linear regression model.</em>
 
 
 ## Part 2: Classification
