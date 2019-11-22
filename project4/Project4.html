@@ -141,13 +141,6 @@ import pandas
 
 arrest_table = pandas.read_csv("http://www.hcbravo.org/IntroDataSci/misc/BPD_Arrests.csv")
 
-arrest_table["race_new"] = arrest_table["sex"]
-arrest_table["sex_new"] = arrest_table["race"]
-arrest_table["race"] = arrest_table["race_new"]
-arrest_table["sex"] = arrest_table["sex_new"]
-arrest_table = arrest_table.drop('race_new', 1)
-arrest_table = arrest_table.drop('sex_new', 1)
-
 arrest_table = arrest_table[pandas.notnull(arrest_table["Location 1"])]
 
 arrest_table["lat"], arrest_table["long"] = arrest_table["Location 1"].str.split(",").str

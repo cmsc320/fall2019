@@ -2,9 +2,9 @@
 
 Posted: October 31, 2019
 
-Last Updated: October 31, 2019
+Last Updated: November 18, 2019
 
-Due: November 20, 2019
+Due: <s>November 20</s> November 25, 2019
 
 ## Part 1: Regression analysis of Gapminder data
 
